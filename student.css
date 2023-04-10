@@ -1,0 +1,1291 @@
+* {
+    margin: 0;
+}
+
+
+body { color: blue; 
+   background-color: rgb(214, 214, 214); }
+.
+.bg {
+    margin: 0;
+}       
+
+.bg {
+    height: 737px;
+    border: 0px solid red;
+    background-image: url(../code/sunset-gad94e6603_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} 
+
+/* Button Suru */
+header {
+    padding-top: 25px;
+}
+
+a, li {
+    text-decoration: none;
+    color: rgb(182, 6, 252);
+} 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    text-shadow: rgb(9, 218, 255) 2px 2px 4px;
+    transition: all .3s ease 0s;
+
+}
+
+.logo:hover {
+    color: red;
+    background-color: azure;
+    box-shadow: 3px 3px 5px;
+    text-shadow: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.nav-links {
+    padding-right: 20px;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-links li a {
+    margin: 0 5px;
+    word-spacing: 1px;
+    background-color: aqua;
+    padding: 6px 15px;
+    border-radius: 20px;
+    transition: all .3s ease 0s;
+    box-shadow: 1px 1px 3px;
+}
+
+.nav-links li a:hover {
+    color: red;
+    background-color: azure;
+    box-shadow: 3px 3px 5px;
+} 
+
+.student {
+    animation-name: in;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes in {
+    0% { color: red; background-color: azure; box-shadow: 3px 3px 5px; border-radius: 20px;}
+    50% { color: red; background-color: azure; box-shadow: 3px 3px 5px; border-radius: 20px;} 
+    100% { color: red; background-color: azure; box-shadow: 3px 3px 5px; border-radius: 20px;}
+}
+/* Baton ses */
+
+/* studedn page er kaj suru*/
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 13cm);
+    grid-gap: 10px;
+    height: 600px;
+    margin-left: 5px;
+}
+
+
+.box {
+    margin-top: 1cm;
+}
+
+.box div {
+    background-color: rgb(164, 248, 241);
+    padding: 10px;
+    animation-name: sss;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sss {
+    0%,100% { background-color: rgb(164, 248, 241);}
+    50% {  background-color: rgb(248, 164, 206);}
+}
+
+
+
+.box div:nth-child(odd) {
+    background-color: rgb(248, 164, 206);
+    animation-name: aaa;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aaa {
+    0%,100% { background-color: rgb(248, 164, 206);}
+    50% { background-color: rgb(164, 248, 241);}
+}
+
+
+.s {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/siyam.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.siyam {
+    position: relative;
+}
+.siyam ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.siyam ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+
+.ra {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/raaaa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rahul {
+    position: relative;
+}
+.rahul ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.rahul ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.gowrab-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/goooo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gowrab {
+    position: relative;
+}
+.gowrab ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.gowrab ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.riyad-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/riyad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.riyad {
+    position: relative;
+}
+.riyad ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.riyad ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.jahirul-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/jahirul.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jahirul {
+    position: relative;
+}
+.jahirul ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.jahirul ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.joy-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/joy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.joy {
+    position: relative;
+}
+.joy ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.joy ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.hasib-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/HASIB\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hasib {
+    position: relative;
+}
+.hasib ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.hasib ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.aduri-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/aduri.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.aduri {
+    position: relative;
+}
+.aduri ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.aduri ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.naimul-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/naimul.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.naimul {
+    position: relative;
+}
+.naimul ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.naimul ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.jubayer-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/jubayer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jubayer {
+    position: relative;
+}
+.jubayer ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.jubayer ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.mahfuj-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mahfuj {
+    position: relative;
+}
+.mahfuj ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.mahfuj ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.lovely-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/lovely.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lovely {
+    position: relative;
+}
+.lovely ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.lovely ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.nipa-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/nipa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nipa {
+    position: relative;
+}
+.nipa ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.nipa ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.rahat-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/ranat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rahat {
+    position: relative;
+}
+.rahat ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.rahat ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.sadhin-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/sadin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sadhin {
+    position: relative;
+}
+.sadhin ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.sadhin ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.mehedi-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/mehedi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mehedi {
+    position: relative;
+}
+.mehedi ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.mehedi ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.siyamc-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/sit.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.siyamc {
+    position: relative;
+}
+.siyamc ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.siyamc ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.shifat-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/shifat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.shifat {
+    position: relative;
+}
+.shifat ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.shifat ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.mafia-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/mafia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mafia {
+    position: relative;
+}
+.mafia ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.mafia ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.anup-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.anup {
+    position: relative;
+}
+.anup ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.anup ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.tuhin-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/tuhin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tuhin {
+    position: relative;
+}
+.tuhin ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.tuhin ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.sahareya-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/saharya.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sahareya {
+    position: relative;
+}
+.sahareya ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.sahareya ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.limon-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(..//Images/limon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.limon {
+    position: relative;
+}
+.limon ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.limon ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.rifad-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/rifad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rifad {
+    position: relative;
+}
+.rifad ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.rifad ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.asif-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/aaa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.asif {
+    position: relative;
+}
+.asif ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.asif ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.sumaiya-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sumaiya {
+    position: relative;
+}
+.sumaiya ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.sumaiya ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.neyamul-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.neyamul {
+    position: relative;
+}
+.neyamul ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.neyamul ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.sania-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sania {
+    position: relative;
+}
+.sania ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.sania ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.imam-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imam {
+    position: relative;
+}
+.imam ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.imam ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.lamia-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/lamia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lamia {
+    position: relative;
+}
+.lamia ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.lamia ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.maria-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/maria.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.maria {
+    position: relative;
+}
+.maria ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.maria ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.sanjida-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/sanjida.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sanjida {
+    position: relative;
+}
+.sanjida ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.sanjida ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.tanjila-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/tanjila.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tanjila {
+    position: relative;
+}
+.tanjila ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.tanjila ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.bahauddin-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/bahauddin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bahauddin {
+    position: relative;
+}
+.bahauddin ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.bahauddin ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.mim-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mim {
+    position: relative;
+}
+.mim ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.mim ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.ani-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ani {
+    position: relative;
+}
+.ani ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.ani ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.sorna-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/sorna.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sorna {
+    position: relative;
+}
+.sorna ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.sorna ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.emt-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/emtiaz.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.emt {
+    position: relative;
+}
+.emt ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.emt ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.jahid-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/jahid.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jahid {
+    position: relative;
+}
+.jahid ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.jahid ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.ruman-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/rrt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ruman {
+    position: relative;
+}
+.ruman ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.ruman ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+
+.mahfuj-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/mahfuj.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mahfuj {
+    position: relative;
+}
+.mahfuj ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.mahfuj ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.proson-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.proson {
+    position: relative;
+}
+.proson ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.proson ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.roficul-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.roficul {
+    position: relative;
+}
+.roficul ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.roficul ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.nipu-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nipu {
+    position: relative;
+}
+.nipu ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.nipu ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+.riyamo-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.riyamo {
+    position: relative;
+}
+.riyamo ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.riyamo ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
+
+.mariam-1 {
+    height: 6cm;
+    width: 6cm;
+    border: none;
+    background-image: url(../Images/0OSoMc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mariam {
+    position: relative;
+}
+.mariam ul {
+    position: absolute;
+    left: 47%;
+    top: 6%;          
+}
+
+.mariam ul li {
+    list-style: none;
+    color: black;
+    padding: 2px;
+}
